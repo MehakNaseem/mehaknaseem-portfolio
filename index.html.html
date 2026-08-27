@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mehak Naseem — Data Science, Machine Learning and Data Analytics portfolio.">
+  <title>Mehak Naseem | Data Science & Machine Learning</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home">MN<span>.</span></a>
+      <button class="menu-btn" aria-label="Toggle menu">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">DATA SCIENCE · MACHINE LEARNING · DATA ANALYTICS</p>
+        <h1>Turning data into <span>insights, predictions & decisions.</span></h1>
+        <p class="hero-text">
+          I'm Mehak Naseem, a Computer Science student building practical data-driven
+          systems with Python, SQL, machine learning and business intelligence.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work</a>
+          <a class="btn secondary" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="metric"><strong>92%</strong><span>Machine failure prediction accuracy</span></div>
+        <div class="metric"><strong>88%</strong><span>Customer churn prediction accuracy</span></div>
+        <div class="metric"><strong>9</strong><span>Projects across ML, analytics, EDA & SQL</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Building with data from raw tables to useful decisions.</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I'm a BS Computer Science student at DHA Suffa University with a strong
+          interest in Data Science, Machine Learning and Data Analytics. I enjoy
+          working across the full data workflow — exploring raw data, building
+          predictive models, analyzing business performance and communicating
+          results through dashboards.
+        </p>
+        <div class="about-facts">
+          <div><span>Degree</span><strong>BS Computer Science</strong></div>
+          <div><span>University</span><strong>DHA Suffa University</strong></div>
+          <div><span>Expected</span><strong>2027</strong></div>
+          <div><span>Focus</span><strong>Data Science & ML</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">02 / PROJECTS</p>
+        <h2>Selected work</h2>
+        <p class="section-subtitle">A mix of predictive modeling, business analytics, exploratory analysis and SQL.</p>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Project filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="ml">Machine Learning</button>
+        <button class="filter" data-filter="analytics">Data Analytics</button>
+        <button class="filter" data-filter="eda">EDA & SQL</button>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured" data-category="ml">
+          <div class="project-top"><span>01</span><span>ML / PREDICTIVE</span></div>
+          <h3>Machine Failure Prediction System</h3>
+          <p>Predictive maintenance system using sensor and operational data to identify potential machine failures.</p>
+          <div class="tags"><span>Python</span><span>scikit-learn</span><span>pandas</span><span>Streamlit</span></div>
+          <div class="result">92% accuracy · 8,000+ readings</div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card featured" data-category="ml">
+          <div class="project-top"><span>02</span><span>ML / CLASSIFICATION</span></div>
+          <h3>Customer Churn Prediction System</h3>
+          <p>Classification pipeline that identifies high-risk customers for retention-focused decision making.</p>
+          <div class="tags"><span>Python</span><span>scikit-learn</span><span>pandas</span><span>Streamlit</span></div>
+          <div class="result">88% accuracy · 7,000+ records</div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card featured" data-category="analytics">
+          <div class="project-top"><span>03</span><span>BI / CUSTOMER ANALYTICS</span></div>
+          <h3>E-Commerce RFM Analytics Dashboard</h3>
+          <p>RFM-based customer segmentation and an interactive Power BI dashboard for revenue and customer insights.</p>
+          <div class="tags"><span>Python</span><span>pandas</span><span>Power BI</span><span>DAX</span></div>
+          <div class="result">4,313 customers · £10.31M revenue analyzed</div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card featured" data-category="analytics">
+          <div class="project-top"><span>04</span><span>SQL / BI / DATA PIPELINE</span></div>
+          <h3>Industrial Sales & Inventory Analytics System</h3>
+          <p>End-to-end ERP simulation connecting a normalized PostgreSQL database to Python analysis and Power BI.</p>
+          <div class="tags"><span>PostgreSQL</span><span>Python</span><span>Power BI</span><span>pandas</span></div>
+          <div class="result">5-table database · 3-page executive dashboard</div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card" data-category="ml">
+          <div class="project-top"><span>05</span><span>ML / CLASSIFICATION</span></div>
+          <h3>Loan Approval Prediction</h3>
+          <p>Machine learning project focused on predicting loan approval outcomes from applicant data.</p>
+          <div class="tags"><span>Python</span><span>Machine Learning</span></div>
+          <a class="project-link" href="https://github.com/MehakNaseem/loan-approval-prediction" target="_blank" rel="noopener">View repository ↗</a>
+        </article>
+
+        <article class="project-card" data-category="analytics">
+          <div class="project-top"><span>06</span><span>DATA ANALYTICS</span></div>
+          <h3>Sales Performance Dashboard</h3>
+          <p>Sales data analysis project using Python for exploration and visualization.</p>
+          <div class="tags"><span>Python</span><span>pandas</span><span>Matplotlib</span><span>Seaborn</span></div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card" data-category="eda">
+          <div class="project-top"><span>07</span><span>EDA</span></div>
+          <h3>Stock Market EDA</h3>
+          <p>Exploratory data analysis project using Python to investigate stock market data and patterns.</p>
+          <div class="tags"><span>Python</span><span>Jupyter Notebook</span></div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card" data-category="eda">
+          <div class="project-top"><span>08</span><span>EDA</span></div>
+          <h3>Amazon Sales EDA</h3>
+          <p>Exploratory analysis of Amazon sales data using Python and notebook-based data exploration.</p>
+          <div class="tags"><span>Python</span><span>Jupyter Notebook</span></div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+
+        <article class="project-card" data-category="eda">
+          <div class="project-top"><span>09</span><span>SQL / ANALYTICS</span></div>
+          <h3>COVID-19 SQL Analysis</h3>
+          <p>Global COVID-19 analysis using joins, window functions, subqueries and continent-level summaries.</p>
+          <div class="tags"><span>SQL</span><span>Joins</span><span>Window Functions</span></div>
+          <a class="project-link" href="https://github.com/MehakNaseem" target="_blank" rel="noopener">View on GitHub ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">03 / SKILLS</p>
+        <h2>My toolkit</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Data & Programming</h3>
+          <p>Python · SQL · pandas · NumPy · Matplotlib · Seaborn</p>
+        </div>
+        <div class="skill-group">
+          <h3>Machine Learning</h3>
+          <p>scikit-learn · Classification · Regression · Feature Engineering · EDA · Model Evaluation</p>
+        </div>
+        <div class="skill-group">
+          <h3>Analytics & BI</h3>
+          <p>Power BI · DAX · Excel · KPI Design · Data Visualization · Data Storytelling</p>
+        </div>
+        <div class="skill-group">
+          <h3>Databases & Tools</h3>
+          <p>PostgreSQL · MySQL · psycopg2 · Jupyter · pgAdmin · MySQL Workbench · Streamlit · GitHub · VS Code</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-heading">
+        <p class="eyebrow">04 / EXPERIENCE & EDUCATION</p>
+        <h2>Beyond the projects</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="date">OCT 2024 — PRESENT</span>
+          <h3>Director of Content Creation & Publications</h3>
+          <p>ACM DSU — Led society-wide communications and digital content strategy, including Hour of Code, Scratch Day and peer mentorship programs.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">2024</span>
+          <h3>Volunteer Coordinator — GLOCON</h3>
+          <p>Managed cross-border logistics for an international academic delegation under direct supervision of the Senior Advisor.</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">2023 — 2027</span>
+          <h3>BS Computer Science</h3>
+          <p>DHA Suffa University</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-inner">
+        <p class="eyebrow">05 / CONTACT</p>
+        <h2>Let's connect.</h2>
+        <p>I'm interested in Data Science, Machine Learning and Data Analytics opportunities.</p>
+        <div class="contact-links">
+          <a href="mailto:naseemmehak16@gmail.com">Email ↗</a>
+          <a href="https://www.linkedin.com/in/mehak-naseem" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/MehakNaseem" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Mehak Naseem</span>
+    <span>Built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
